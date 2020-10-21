@@ -4,16 +4,17 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "start:dev": "nodemon app"
   },
   "keywords": [],
-  "author": "",
+  "author": "Berezkin Kirill",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.1",
+    "mongoose": "^5.10.9",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
     "qrcode": "^1.4.4",
